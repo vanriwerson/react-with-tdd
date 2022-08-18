@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 const LanguageSelector = (props) => {
   const { i18n } = useTranslation();
@@ -6,15 +6,15 @@ const LanguageSelector = (props) => {
   return (
     <>
       <img
-        src="https://www.countryflags.io/tr/flat/24.png"
+        src="https://icons.veryicon.com/png/Flag/All%20Country%20Flag/Turkey%20Flag.png"
         title="Türkçe"
-        onClick={() => i18n.changeLanguage('tr')}
+        onClick={() => i18n.changeLanguage("tr")}
         alt="Turkish Flag"
       />
       <img
-        src="https://www.countryflags.io/gb/flat/24.png"
+        src="https://icons.veryicon.com/png/Flag/Flag%203/United%20Kingdom%20flag.png"
         title="English"
-        onClick={() => i18n.changeLanguage('en')}
+        onClick={() => i18n.changeLanguage("en")}
         alt="Great Britain Flag"
       />
     </>
